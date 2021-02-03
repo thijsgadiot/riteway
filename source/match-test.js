@@ -22,7 +22,7 @@ describe('match', async assert => {
     const given = 'some text with digits';
     const should = 'return the matched text';
 
-    const textWithDigit = '<h1>There are 4 cats</h1>';
+    const textWithRegexMetaChar = '<h1>There are 4 cats</h1>';
     const pattern = /\d+\s\w+/i;
     const contains = match(textWithDigit);
 
