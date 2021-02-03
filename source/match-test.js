@@ -40,7 +40,7 @@ describe('match', async assert => {
 
     const textWithRegexMetaChar = '<h1>Are there any cats?</h1>';
     const pattern = 'Are there any cats?';
-    const contains = match(textWithDigit);
+    const contains = match(textWithRegexMetaChar);
 
     assert({
       given,
